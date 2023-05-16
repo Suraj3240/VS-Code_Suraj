@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    cout << "Enter string lenght: ";
+    cout << "Enter string length: ";
     int n;
     cin >> n;
     cout << "Enter string array: \n";
@@ -28,6 +28,7 @@ int main()
         for (int k = 0; k < f; k++)
             cout << frames[k] << "  ";
         cout << "\t\t";
+
         for (int k = 0; k < f; k++)
         {
             if (curr == frames[k])
