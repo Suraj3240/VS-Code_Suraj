@@ -31,7 +31,14 @@ int main()
     {
         int curr = arr[i];
         cout << curr << "\t\t";
-
+        if (s.find(curr) != s.end())
+        {
+            hit++;
+            // print current frames
+            print_frames(frames, f);
+            cout << "H\n";
+            continue;
+        }
         if (s.size() < f)
         {
             miss++;

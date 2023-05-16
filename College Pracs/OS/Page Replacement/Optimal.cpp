@@ -29,7 +29,13 @@ int main()
     {
         int curr = v[i];
         cout << curr << "\t\t";
-
+        if (s.find(curr) != s.end())
+        {
+            hit++;
+            print_frames(frames, f);
+            cout << "H\n";
+            continue;
+        }
         if (s.size() < f)
         {
             miss++;
