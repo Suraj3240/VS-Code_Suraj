@@ -11,7 +11,7 @@ elif(x<192):
 elif(x<224):
     ip_class="C"
     ip_subnet="255.255.255.0"
-elif(x<239):
+elif(x<240):
     ip_class="D"
 else:
     ip_class="E"
